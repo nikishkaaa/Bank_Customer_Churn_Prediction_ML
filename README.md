@@ -22,14 +22,14 @@ In this project, we applied various machine learning models for binary classific
    - Normalizing and scaling numerical features for better model performance.
 
 2. **Model Selection:**
-   - Experimenting with different machine learning algorithms including Logistic Regression, Decision Trees, Random Forest, Support Vector Machines (SVM), and Gradient Boosting.
+   - Experimenting with different machine learning algorithms including Logistic Regression, Decision Trees, XGBoostClassifier, Support Vector Machines (SVM), KNN and LightGBM.
    - Splitting the data into training and testing sets to ensure unbiased evaluation of model performance.
 
 3. **Model Evaluation:**
    - ROC-AUC: The area under the Receiver Operating Characteristic curve, measuring the model's ability to distinguish between churn and non-churn classes
 
 5. **Hyperparameter Tuning:**
-   - Employing techniques like Grid Search and Random Search to optimize model parameters for improved accuracy.
+   - Employing techniques like Grid Searchto optimize model parameters for improved accuracy.
 
 6. **Final Model Selection:**
    - Comparing the results from different models to select the best-performing algorithm based on evaluation metrics.
