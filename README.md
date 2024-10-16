@@ -1,4 +1,4 @@
-##### Project Overview: Bank Customer Churn Prediction
+# Project Overview: Bank Customer Churn Prediction
 
 **Problem Statement:**
 Customer churn is a critical issue for banks, as it directly impacts revenue and growth. This project aims to predict whether a customer will leave the bank using a dataset containing various customer attributes and transaction history. By accurately predicting churn, the bank can implement targeted retention strategies, thereby improving customer satisfaction and reducing loss.
