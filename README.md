@@ -22,14 +22,15 @@ In this project, we applied various machine learning models for binary classific
    - Normalizing and scaling numerical features for better model performance.
 
 2. **Model Selection:**
-   - Experimenting with different machine learning algorithms including Logistic Regression, Decision Trees, XGBoostClassifier, Support Vector Machines (SVM), KNN and LightGBM.
+   - Experimenting with different machine learning algorithms including Logistic Regression, Decision Trees, XGBoostClassifier, Support Vector Machines (SVM) and KNN.
    - Splitting the data into training and testing sets to ensure unbiased evaluation of model performance.
 
 3. **Model Evaluation:**
    - ROC-AUC: The area under the Receiver Operating Characteristic curve, measuring the model's ability to distinguish between churn and non-churn classes
 
 5. **Hyperparameter Tuning:**
-   - Employing techniques like Grid Searchto optimize model parameters for improved accuracy.
+   - Employing techniques like Grid SearchCV and RandomSearch optimize model parameters for improved accuracy.
+   - Employing CrossValidation technique to impove accuracy and mitigate overfitting
 
 6. **Final Model Selection:**
    - Comparing the results from different models to select the best-performing algorithm based on evaluation metrics.
@@ -42,7 +43,6 @@ In this project, we applied various machine learning models for binary classific
     <th colspan="2">Logistic Regression</th>
     <th colspan="2">Decision Tree</th>
     <th colspan="2">XGBoostClassifier</th>
-    <th colspan="2">LightGBM</th>
     <th colspan="2">KNN</th>
     <th colspan="2">SVM</th>
   </tr>
@@ -57,22 +57,18 @@ In this project, we applied various machine learning models for binary classific
     <th>Test ROC AUC score</th>
     <th>Train ROC AUC score</th>
     <th>Test ROC AUC score</th>
-    <th>Train ROC AUC score</th>
-    <th>Test ROC AUC score</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.93</td>
+    <td>0.92</td>
+    <td>0.92</td>
+    <td>0.92</td>
+    <td>0.95</td>
+    <td>0.93</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.92</td>
+    <td>0.92</td>
   </tr>
 </table>
 
